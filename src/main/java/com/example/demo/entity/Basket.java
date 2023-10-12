@@ -9,7 +9,7 @@ public class Basket {
    private List<Integer> products = new ArrayList<>();
 
     public void addProducts(List<Integer> products) {
-        products.addAll(products);
+        products.addAll(products) ;
     }
 
     public List<Integer> getProducts(List<Integer> products) {
